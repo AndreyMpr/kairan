@@ -1,11 +1,16 @@
 html body {
     box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
 }
 
 #document-wrapper {
+    width: 50%;
+    float: left;
     background-color: antiquewhite;
 }
 
 #side-panel-wrapper {
     background-color: darksalmon;
+    margin-left: 52%;
 }
