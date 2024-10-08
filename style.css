@@ -3,6 +3,7 @@ html body {
     width: 100%;
     overflow: hidden;
     padding: 1em 5em;
+    background-color: #eaebf1;
 }
 
 /*////////////Left panel////////////*/
@@ -10,7 +11,7 @@ html body {
 #document-wrapper {
     width: 50%;
     float: left;
-    background-color: antiquewhite;
+    background-color: #bacabe;
     min-height: 100vh;
     border-radius: 0.8em;
 }
@@ -25,7 +26,7 @@ html body {
 /*////////////Right panel////////////*/
 
 #side-panel-wrapper {
-    background-color: darksalmon;
+    background-color: #bacabe;
     margin-left: 52%;
     min-height: 100vh;
     padding: 0 4em;
