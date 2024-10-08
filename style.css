@@ -29,6 +29,10 @@ html body {
     padding: 0 4em;
 }
 
+#side-panel-wrapper p {
+    margin: 0;
+}
+
 #explanation {
     height: 20vh;
     background-color: #fff;
