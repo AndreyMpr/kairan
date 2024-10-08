@@ -11,6 +11,12 @@ html body {
     min-height: 100vh;
 }
 
+#document-view {
+    background-color: #fff;
+    height: 85vh;
+    margin: 0 4em;
+}
+
 #side-panel-wrapper {
     background-color: darksalmon;
     margin-left: 52%;
