@@ -12,12 +12,14 @@ html body {
     float: left;
     background-color: antiquewhite;
     min-height: 100vh;
+    border-radius: 0.8em;
 }
 
 #document-view {
     background-color: #fff;
     height: 85vh;
     margin: 0 4em;
+    border-radius: 0.6em;
 }
 
 /*////////////Right panel////////////*/
@@ -27,6 +29,7 @@ html body {
     margin-left: 52%;
     min-height: 100vh;
     padding: 0 4em;
+    border-radius: 0.6em;
 }
 
 #side-panel-wrapper p {
@@ -36,15 +39,18 @@ html body {
 #explanation {
     height: 20vh;
     background-color: #fff;
+    border-radius: 0.6em;
 }
 
 #sign-list {
     height: 50vh;
     background-color: #fff;
     margin: 2em 0;
+    border-radius: 0.6em;
 }
 
 #sign-form {
     height: 14.8vh;
     background-color: #fff;
+    border-radius: 0.6em;
 }
