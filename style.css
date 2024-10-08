@@ -2,8 +2,10 @@ html body {
     box-sizing: border-box;
     width: 100%;
     overflow: hidden;
-    padding: 0 5em;
+    padding: 1em 5em;
 }
+
+/*////////////Left panel////////////*/
 
 #document-wrapper {
     width: 50%;
@@ -18,6 +20,8 @@ html body {
     margin: 0 4em;
 }
 
+/*////////////Right panel////////////*/
+
 #side-panel-wrapper {
     background-color: darksalmon;
     margin-left: 52%;
@@ -25,3 +29,18 @@ html body {
     padding: 0 4em;
 }
 
+#explanation {
+    height: 20vh;
+    background-color: #fff;
+}
+
+#sign-list {
+    height: 50vh;
+    background-color: #fff;
+    margin: 2em 0;
+}
+
+#sign-form {
+    height: 10vh;
+    background-color: #fff;
+}
