@@ -12,13 +12,13 @@ html body {
     width: 50%;
     float: left;
     background-color: #bacabe;
-    min-height: 90vh;
+    min-height: 95vh;
     border-radius: 0.8em;
 }
 
 #document-view {
     background-color: #fff;
-    height: 85vh;
+    height: 80vh;
     margin: 0 4em;
     border-radius: 0.6em;
 }
