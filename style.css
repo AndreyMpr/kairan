@@ -20,7 +20,7 @@ html body {
     background-color: #fff;
     height: 80vh;
     margin: 0 4em;
-    border-radius: 0.6em;
+    border-radius: 0.5em;
 }
 
 /*////////////Right panel////////////*/
@@ -30,7 +30,7 @@ html body {
     margin-left: 52%;
     min-height: 92vh;
     padding: 1em 4em;
-    border-radius: 0.6em;
+    border-radius: 0.5em;
 }
 
 #side-panel-wrapper p {
@@ -40,18 +40,18 @@ html body {
 #explanation {
     height: 20vh;
     background-color: #fff;
-    border-radius: 0.6em;
+    border-radius: 0.5em;
 }
 
 #sign-list {
     height: 50vh;
     background-color: #fff;
     margin: 1em 0;
-    border-radius: 0.6em;
+    border-radius: 0.5em;
 }
 
 #sign-form {
     height: 16vh;
     background-color: #fff;
-    border-radius: 0.6em;
+    border-radius: 0.5em;
 }
