@@ -58,3 +58,7 @@ html body {
     background-color: #fff;
     border-radius: 0.5em;
 }
+
+#sign-list ul li {
+    font-size: 1.2em;
+}
