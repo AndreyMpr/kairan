@@ -19,6 +19,10 @@ html body {
     border-radius: 0.8em;
 }
 
+#document-wrapper div h1 {
+    text-align: center;
+}
+
 #document-view {
     background-color: #fff;
     height: 80vh;
@@ -58,6 +62,7 @@ html body {
     background-color: #fff;
     border-radius: 0.5em;
 }
+
 
 #sign-list ul li {
     font-size: 1.2em;
