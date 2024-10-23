@@ -59,6 +59,10 @@ html body {
     border-radius: 0.5em;
 }
 
+#form {
+    text-align: center; 
+}
+
 #sign-form {
     height: 16vh;
     background-color: #fff;
