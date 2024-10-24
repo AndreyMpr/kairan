@@ -61,6 +61,7 @@ html body {
 
 #form {
     text-align: center; 
+    min-width: 100%;
 }
 
 #sign-form {
