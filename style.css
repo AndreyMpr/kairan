@@ -4,7 +4,7 @@ html body {
     box-sizing: border-box;
     width: 100%;
     overflow: hidden;
-    /*padding: 0 8vw;*/
+    padding: 0 8vw;
     background-color: #eaebf1;
     font-family: sans-serif;
 }
