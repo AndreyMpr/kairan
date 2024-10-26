@@ -72,7 +72,7 @@ html body {
 }
 
 #form button {
-    
+    min-width: 20%;
 }
 
 #sign-form {
