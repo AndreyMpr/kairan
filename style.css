@@ -77,7 +77,6 @@ html body {
 }
 
 #form button {
-    margin: auto;
     display: block;
     min-width: 20%;
 }
