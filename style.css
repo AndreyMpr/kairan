@@ -78,6 +78,7 @@ html body {
 #form button {
     display: block;
     min-width: 20%;
+    margin: 0 1em;
 }
 
 #sign-form {
