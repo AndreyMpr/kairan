@@ -53,14 +53,14 @@
              </ul>
         </div>
         <div id="sign-form">
-            <form id="form" method="post">
+            <form id="form" onsubmit="return addItem('list', this.inputItem)">
                 
                 <label>部署
-                <input class="input" dept="部署"/>
+                <input type="text" class="input" dept="部署"/>
                 </label>
                 
                 <label>氏名
-                <input class="input" name="氏名"/>
+                <input type="text" class="input" name="氏名"/>
                 </label>
 
                 <button>申請</button>
