@@ -87,6 +87,10 @@ html body {
     border-radius: 0.5em;
 }
 
+#form button {
+    display: inline-block;
+}
+
 
 #sign-list ul li {
     font-size: 1.2em;
