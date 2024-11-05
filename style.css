@@ -90,6 +90,7 @@ html body {
 
 .inputField {
     margin-bottom: 1.6em;
+    border-radius: 6px;
 }
 
 #form button {
