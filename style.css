@@ -42,8 +42,8 @@ html body {
     height: 97vh;
     padding: 1em;
     border-radius: 0.5em;
-    display: block;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 #side-panel-wrapper p {
@@ -55,6 +55,8 @@ html body {
     background-color: #fff;
     border-radius: 0.5em;
     padding: 0.5em;
+    display: flex;
+    align-items: stretch;
 }
 
 #sign-list {
@@ -62,10 +64,14 @@ html body {
     background-color: #fff;
     margin: 1em 0;
     border-radius: 0.5em;
+    display: flex;
+    align-items: stretch;
 }
 
 #form {
     min-width: 100%;
+    display: flex;
+    align-items: stretch;
 }
 
 #form label {
