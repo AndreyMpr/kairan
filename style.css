@@ -15,9 +15,10 @@ html body {
     width: 49%;
     float: left;
     background-color: #bacabe;
-    min-height: 97vh;
+    height: 97vh;
     min-width: 30vw;
     border-radius: 0.8em;
+    display: block;
 }
 
 #document-wrapper div h1 {
@@ -38,9 +39,11 @@ html body {
 #side-panel-wrapper {
     background-color: #bacabe;
     margin-left: 51%;
-    min-height: 92vh;
+    height: 97vh;
     padding: 1em;
     border-radius: 0.5em;
+    display: block;
+    overflow: hidden;
 }
 
 #side-panel-wrapper p {
