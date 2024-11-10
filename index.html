@@ -1,51 +1,54 @@
 <!DOCTYPE html>
 <html lang="jp">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MaruKairan</title>
-    <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-    <div id="document-wrapper">
-        <div>
-            <h1 id="title">Document title</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MaruKairan</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div id="document-wrapper">
+            <div>
+                <h1 id="title">Document title</h1>
+            </div>
+            <div id="document-view">
+                <object class="pdf" 
+                        data="uploads/sample.pdf"
+                        width="100%"
+                        height="100%">
+                </object>
+            </div>	
         </div>
-        <div id="document-view">
-            <object class="pdf" 
-                    data="uploads/sample.pdf"
-                    width="100%"
-                    height="100%">
-            </object>
-        </div>	
-    </div>
-    <div id="side-panel-wrapper">
-        <div id="explanation">
-            <p>
-                レディ間のコミュニケーションを図り、円滑な人間関係と今後の活動の意欲向上を目指し																						
-                ﾚﾃﾞｲ懇親会を行いたいため、稟申いたします。																						
-                以前は年1回程行っていましたが、コロナ禍で中止していました。再開をしたいと思います。																						
-                何卒よろしくお願いいたします。																						
-            </p>
+        <div id="side-panel-wrapper">
+            <div id="explanation">
+                <p>
+                    レディ間のコミュニケーションを図り、円滑な人間関係と今後の活動の意欲向上を目指し																						
+                    ﾚﾃﾞｲ懇親会を行いたいため、稟申いたします。																						
+                    以前は年1回程行っていましたが、コロナ禍で中止していました。再開をしたいと思います。																						
+                    何卒よろしくお願いいたします。																						
+                </p>
+            </div>
+            <div id="sign-list">
+                <ul id="signatures">
+                    <li>Morozov Andrey</li>
+                    <li>Morozova Marina</li>
+                    <li>Morozov Alexandr</li>
+                    <li>Morozova Marina</li>
+                </ul>
+            </div>
+            <div id="sign-form">
+                <form id="signatureForm">
+                    <label>部署
+                        <input type="text" id="department" name="department" required/>
+                    </label>
+                    <br>
+                    <label>氏名
+                        <input type="text" id="name" name="name" required/>
+                    </label>
+                    <button type="submit" id="sign-button">申請</button>
+                </form>
+            </div>
         </div>
-        <div id="sign-list">
-            <ul id="signatures">
-                <li>Morozov Andrey</li>
-                <li>Morozova Marina</li>
-                <li>Morozov Alexandr</li>
-                <li>Morozova Marina</li>
-            </ul>
-        </div>
-        <div id="sign-form">
-            <form id="signatureForm">
-                <label>部署
-                    <input type="text" id="department" name="department" required/>
-                </label>
-                <br>
-                <label>氏名
-                    <input type="text" id="name" name="name" required/>
-                </label>
-                <button type="submit" id="sign-button">申請</button>
-            </form>
-        </div>
-    </div>
+        <script type="text/javascript" src="includes/form.js"></script>
+    </body>
+</html>
