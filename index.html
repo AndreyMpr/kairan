@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="jp">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MaruKairan</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
-
 <body>
-
     <div id="document-wrapper">
         <div>
             <h1 id="title">Document title</h1>
         </div>
-
         <div id="document-view">
             <object class="pdf" 
                     data="uploads/sample.pdf"
@@ -23,7 +19,6 @@
             </object>
         </div>	
     </div>
-
     <div id="side-panel-wrapper">
         <div id="explanation">
             <p>
@@ -34,42 +29,23 @@
             </p>
         </div>
         <div id="sign-list">
-            <ul>
-                <li>
-                    Morozov Andrey
-                </li>
-
-                <li>
-                    Morozova Marina
-                </li>
-
-                <li>
-                    Morozov Alexandr
-                </li>
-           
-                <li>
-                    Morozova Marina
-                </li>
-             </ul>
+            <ul id="signatures">
+                <li>Morozov Andrey</li>
+                <li>Morozova Marina</li>
+                <li>Morozov Alexandr</li>
+                <li>Morozova Marina</li>
+            </ul>
         </div>
         <div id="sign-form">
-            <form id="form" onsubmit="return addItem('list', this.inputItem)">
-                
+            <form id="signatureForm">
                 <label>部署
-                <input type="text" class="inputField" dept="部署"/>
+                    <input type="text" id="department" name="department" required/>
                 </label>
                 <br>
                 <label>氏名
-                <input type="text" class="inputField" name="氏名"/>
+                    <input type="text" id="name" name="name" required/>
                 </label>
-
                 <button type="submit" id="sign-button">申請</button>
-                
             </form>
         </div>
     </div>
-    
-<script type="text/javascript" src="/includes/form.js">
-</script>    
-</body>
-</html>
