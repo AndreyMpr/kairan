@@ -94,6 +94,11 @@ html body {
     padding: 1.5em;
 }
 
+#signatureForm label {
+    display: inline-flex;
+    margin: 0.5em;
+}
+
 .inputField {
     margin-bottom: 1.6em;
     border-radius: 6px;
