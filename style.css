@@ -84,12 +84,6 @@ html body {
 
 /*////////////Form////////////*/
 
-#form button {
-    display: inline-block;
-    min-width: 20%;
-    margin: 0 1em;
-}
-
 #sign-form {
     background-color: #fff;
     border-radius: 0.5em;
@@ -104,4 +98,10 @@ html body {
 .inputField {
     margin-bottom: 1.6em;
     border-radius: 6px;
+}
+
+#form button {
+    display: inline-block;
+    min-width: 20%;
+    margin: 0 1em;
 }
