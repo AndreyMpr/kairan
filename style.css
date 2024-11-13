@@ -91,7 +91,7 @@ html body {
 }
 
 #signatureForm label {
-    /*display: inline-flex;*/
+    display: inline-flex;
     margin: 0.5em;
 }
 
@@ -101,7 +101,7 @@ html body {
 }
 
 #form button {
-    display: inline-block;
+    /*display: inline-block;*/
     min-width: 20%;
     margin: 0 1em;
 }
