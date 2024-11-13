@@ -91,7 +91,7 @@ html body {
 }
 
 #signatureForm label {
-    display: inline-flex;
+    /*display: inline-flex;*/
     margin: 0.5em;
 }
 
