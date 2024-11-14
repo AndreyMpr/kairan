@@ -101,7 +101,6 @@ html body {
 }
 
 #form button {
-    /*display: inline-block;*/
     min-width: 6em;
     margin: 0 1em;
 }
