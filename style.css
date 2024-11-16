@@ -13,18 +13,19 @@ html body {
 }
 
 @media (max-width: 768px) {
-  #document-wrapper, #side-panel-wrapper {
-    width: 100%;
-    margin: 0;
-    float: none;
+    #document-wrapper, #side-panel-wrapper {
+      width: 100%;
+      margin: 0;
+      float: none;
+    }
+    body {
+      padding: 0 5vw;
+      flex-direction: column;
+    }
+    .input {
+      width: 100%;
+    }
   }
-  body {
-    padding: 0 5vw;
-  }
-  .input {
-    width: 100%;
-  }
-}
 
 /*////////////Left panel////////////*/
 
