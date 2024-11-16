@@ -7,6 +7,9 @@ html body {
     padding: 0 8vw;
     background-color: #eaebf1;
     font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
 }
 
 @media (max-width: 768px) {
