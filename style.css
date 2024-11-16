@@ -12,6 +12,12 @@ html body {
     flex-direction: row;
 }
 
+#document-wrapper, #side-panel-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 @media (max-width: 768px) {
     #document-wrapper, #side-panel-wrapper {
       width: 100%;
@@ -25,18 +31,23 @@ html body {
     .input {
       width: 100%;
     }
-  }
+}
+
+#document-view, #explanation, #sign-list {
+    flex-grow: 1;
+}
 
 /*////////////Left panel////////////*/
 
 #document-wrapper {
     width: 49%;
-    float: left;
     background-color: #bacabe;
-    height: 97vh;
+    height: 100%;
     min-width: 30vw;
     border-radius: 0.8em;
     display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 #document-wrapper div h1 {
@@ -56,12 +67,14 @@ html body {
 
 #side-panel-wrapper {
     background-color: #bacabe;
-    margin-left: 51%;
-    height: 91.8vh;
+    width: 49%;
+    margin-left: 2%;
+    height: 100%;
     padding: 1em;
     border-radius: 0.5em;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 #side-panel-wrapper p {
