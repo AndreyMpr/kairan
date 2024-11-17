@@ -43,10 +43,9 @@ html body {
 #document-wrapper {
     width: 49%;
     background-color: #bacabe;
-    height: 100%;
+    height: calc(100vh - 2em);
     min-width: 30vw;
     border-radius: 0.8em;
-    display: block;
     display: flex;
     flex-direction: column;
 }
