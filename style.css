@@ -89,12 +89,10 @@ html body {
 }
 
 #sign-list {
-    height: 36vh;
     background-color: #fff;
     margin: 1em 0;
     border-radius: 0.5em;
-    display: flex;
-    align-items: stretch;
+    flex-grow: 1;
 }
 
 #form {
