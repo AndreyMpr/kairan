@@ -82,12 +82,10 @@ html body {
 }
 
 #explanation {
-    height: 36vh;
     background-color: #fff;
     border-radius: 0.5em;
     padding: 0.5em;
-    display: flex;
-    align-items: stretch;
+    flex-grow: 1;
 }
 
 #sign-list {
