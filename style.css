@@ -12,6 +12,15 @@ html body {
     flex-direction: row;
 }
 
+body {
+    padding: 0 5vw;
+}
+@media (max-width: 480px) {
+    body {
+        padding: 0 3vw;
+    }
+}
+
 #document-wrapper, #side-panel-wrapper {
     display: flex;
     flex-direction: column;
