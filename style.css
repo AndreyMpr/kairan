@@ -180,4 +180,5 @@ body {
 #form button:active {
     transform: translateY(0);
     box-shadow: none;
+    colour: #ffffff;
 }
