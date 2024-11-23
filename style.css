@@ -30,7 +30,8 @@ body {
 */
 
 #document-wrapper, #side-panel-wrapper {
-    width: 48%;
+    flex: 1 1 48%;
+    margin: 0;
 }
 @media (max-width: 768px) {
     body {
