@@ -39,7 +39,6 @@ body {
         flex-direction: column;
     }
     #document-wrapper, #side-panel-wrapper {
-        width: 100%;
         margin: 0;
         flex: 1 1 100%;
     }
