@@ -145,6 +145,11 @@ body {
 #signatureForm label {
     display: inline-flex;
     margin: 0.5em;
+    
+}
+
+#signatureForm label select,  #signatureForm label input{
+    margin-left: 1em;
 }
 
 .inputField {
