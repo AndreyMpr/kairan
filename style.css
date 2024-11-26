@@ -163,11 +163,10 @@ body {
 
 #sign-button {
     background-color: #bacabe;
-    padding: 16px 24px;
     border: none;
     border-radius: 6px;
     font-size: 1.1rem;
-    width: 100%;
+    width: 10em;
     min-width: 3em;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -179,7 +178,7 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     outline: none;
-    colour: #ffffec;
+    color: #ffffec;
 }
 
 #form button:active {
