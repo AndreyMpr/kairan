@@ -172,8 +172,8 @@ body {
     transition: all 0.3s ease;
 }
 
-#form button:hover, 
-#form button:focus {
+#sign-button:hover, 
+#sign-button:focus {
     background-color: #45a049;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -181,8 +181,8 @@ body {
     color: #ffffec;
 }
 
-#form button:active {
+#sign-button:active {
     transform: translateY(0);
     box-shadow: none;
-    colour: #ffffff;
+    color: #ffffff;
 }
