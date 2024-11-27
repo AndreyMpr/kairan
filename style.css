@@ -22,14 +22,6 @@ body {
 }
 
 #document-wrapper, #side-panel-wrapper {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    box-sizing: border-box
-}
-
-
-#document-wrapper, #side-panel-wrapper {
     flex: 1 1 48%;
     margin: 0;
 }
