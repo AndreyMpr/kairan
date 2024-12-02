@@ -107,6 +107,7 @@ body {
 
 #starter {
     width: 100%;
+    display: flex;
 }
 
 #sign-list {
