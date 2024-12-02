@@ -105,6 +105,10 @@ body {
     flex-grow: 1;
 }
 
+#starter {
+    width: 100%;
+}
+
 #sign-list {
     background-color: #fff;
     margin: 1em 0;
