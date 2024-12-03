@@ -111,6 +111,10 @@ body {
     padding: auto;
 }
 
+#starter-dep, #starter-name {
+    display: inline-flex;
+}
+
 #sign-list {
     background-color: #fff;
     margin: 1em 0;
