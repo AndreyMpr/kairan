@@ -172,6 +172,7 @@ body {
     min-width: 3em;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-left: 1em;
 }
 
 #sign-button:hover, 
