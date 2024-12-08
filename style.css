@@ -25,6 +25,7 @@ body {
     flex: 1 1 48%;
     margin: 0;
 }
+
 @media (max-width: 768px) {
     body {
         padding: 0 5vw;
@@ -40,8 +41,8 @@ body {
     #document-wrapper, #side-panel-wrapper {
       width: 100%;
       margin: 0;
-
     }
+    
     body {
       padding: 0 5vw;
       flex-direction: column;
@@ -147,7 +148,6 @@ body {
 #signatureForm label {
     display: inline-flex;
     margin: 0.5em;
-    
 }
 
 #signatureForm label select,  #signatureForm label input{
