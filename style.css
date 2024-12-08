@@ -40,7 +40,7 @@ body {
     #document-wrapper, #side-panel-wrapper {
       width: 100%;
       margin: 0;
-      float: none;
+
     }
     body {
       padding: 0 5vw;
