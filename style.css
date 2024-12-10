@@ -110,6 +110,7 @@ body {
     width: 100%;
     display: flex;
     padding: auto;
+    margin-too: 2em;
 }
 
 #starter-dep, #starter-name {
