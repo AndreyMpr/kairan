@@ -109,8 +109,13 @@ body {
 #starter {
     width: 100%;
     display: flex;
-    padding: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
     margin-top: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #starter-dep, #starter-name {
