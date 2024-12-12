@@ -119,8 +119,10 @@ body {
 }
 
 #starter-dep, #starter-name {
-    display: inline-flex;
     font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0;
 }
 
 #sign-list {
