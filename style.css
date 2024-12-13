@@ -15,11 +15,11 @@ html body {
 body {
     padding: 0 5vw;
 }
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     body {
         padding: 0 3vw;
     }
-}
+}*/
 
 #document-wrapper, #side-panel-wrapper {
     flex: 1 1 48%;
