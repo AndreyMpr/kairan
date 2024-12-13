@@ -131,6 +131,12 @@ body {
     padding-left: 1em;
 }
 
+#starter-dep {
+    text-align: right;
+    color: #777;
+    font-size: 1rem;
+}
+
 #sign-list {
     background-color: #fff;
     margin: 1em 0;
