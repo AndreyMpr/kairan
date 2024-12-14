@@ -21,6 +21,10 @@ body {
     }
 }*/
 
+#top-menu-wrapper {
+display: absolute;
+}
+
 #document-wrapper, #side-panel-wrapper {
     flex: 1 1 48%;
     margin: 0;
