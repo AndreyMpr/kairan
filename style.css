@@ -60,6 +60,12 @@ display: absolute;
     flex-grow: 1;
 }
 
+/*////////////Menu////////////*/
+
+#top-menu-wrapper {
+    
+}
+
 /*////////////Left panel////////////*/
 
 #document-wrapper {
