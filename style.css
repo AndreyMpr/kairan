@@ -63,7 +63,8 @@ display: absolute;
 /*////////////Menu////////////*/
 
 #top-menu-wrapper {
-    
+    display: flex;
+    flex-direction: column;
 }
 
 /*////////////Left panel////////////*/
