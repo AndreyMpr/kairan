@@ -65,6 +65,7 @@ display: absolute;
 #top-menu-wrapper {
     display: flex;
     flex-direction: column;
+    margin-right: 2em;
 }
 
 .menu-el {
