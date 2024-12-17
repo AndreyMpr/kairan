@@ -1,0 +1,10 @@
+<script>
+  window.addEventListener('load', function() {
+    const elements = document.querySelectorAll('*');
+    elements.forEach(function(element) {
+      if (window.getComputedStyle(element).color === 'rgb(228, 140, 37)') {
+        element.style.color = '#eb6321';
+      }
+    });
+  });
+</script>

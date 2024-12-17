@@ -70,7 +70,9 @@ display: absolute;
 
 .menu-el {
     padding: 1em;
+    text-wrap: nowrap;
 }
+
 
 /*////////////Left panel////////////*/
 
