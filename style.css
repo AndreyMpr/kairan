@@ -66,6 +66,7 @@ display: absolute;
     display: flex;
     flex-direction: column;
     margin-right: 2em;
+    margin-top: 5em;
 }
 
 .menu-el {
