@@ -67,6 +67,10 @@ display: absolute;
     flex-direction: column;
 }
 
+.menu-el {
+    padding: 1em;
+}
+
 /*////////////Left panel////////////*/
 
 #document-wrapper {
