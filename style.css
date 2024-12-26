@@ -70,7 +70,7 @@ display: absolute;
 }
 
 .menu-el {
-    padding: 1em;
+    padding-bottom: 1em;
     text-wrap: nowrap;
     text-align: center;
 }
