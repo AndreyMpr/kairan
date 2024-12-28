@@ -83,6 +83,14 @@ display: absolute;
     #top-menu-wrapper {
         margin: 0;
         flex-direction: row;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #eaebf1;
+
+        padding: 10px 5vw;
+        box-sizing: border-box;
     }
 }
 
