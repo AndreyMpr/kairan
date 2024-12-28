@@ -82,6 +82,7 @@ display: absolute;
 @media (max-width: 768px) {
     #top-menu-wrapper {
  margin: 0;
+    }
 }
 
 /*////////////Left panel////////////*/
