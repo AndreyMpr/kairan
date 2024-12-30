@@ -1,7 +1,11 @@
 /*////////////Global style////////////*/
 
-html body {
+html,
+body {
     box-sizing: border-box;
+}
+
+body {
     width: 100%;
     overflow: hidden;
     padding: 0 8vw;
@@ -15,48 +19,65 @@ html body {
 body {
     padding: 0 5vw;
 }
+
 @media (max-width: 768px) {
     body {
         padding: 0 3vw;
     }
 }
 
-#top-menu-wrapper {
-display: absolute;
-}
-
-#document-wrapper, #side-panel-wrapper {
+#document-wrapper,
+#side-panel-wrapper {
     flex: 1 1 48%;
     margin: 0;
 }
 
+
 @media (max-width: 768px) {
     body {
-        padding: 0 5vw;
+        padding: 0;
         flex-direction: column;
+        height: auto;
+        overflow-y: auto;
     }
-    #document-wrapper, #side-panel-wrapper {
+
+    #top-menu-wrapper,
+    #document-wrapper,
+    #side-panel-wrapper {
+        width: 100%;
         margin: 0;
-        flex: 1 1 100%;
+        height: auto;
     }
-}
 
-@media (max-width: 768px) {
-    #document-wrapper, #side-panel-wrapper {
-      width: 100%;
-      margin: 0;
+    #top-menu-wrapper {
+        order: 1;
+        position: static;
+        padding: 10px 0;
+        flex: 0 0 12vh;
     }
-    
-    body {
-      padding: 0 5vw;
-      flex-direction: column;
+
+    #document-wrapper {
+        order: 2;
+        flex: 1 1 44vh;
+        height: 44vh;
+        min-height: 300px;
     }
+
+    #side-panel-wrapper {
+        order: 3;
+        flex: 1 1 44vh;
+        height: 44vh;
+        min-height: 300px;
+    }
+
     .input {
-      width: 100%;
+        width: 100%;
     }
 }
 
-#document-view, #explanation, #sign-list {
+#document-view,
+#explanation,
+#sign-list {
     flex-grow: 1;
 }
 
@@ -79,16 +100,13 @@ display: absolute;
     filter: invert(50%) sepia(17%) saturate(363%) hue-rotate(83deg) brightness(99%) contrast(88%);
     width: 2.5rem;
 }
+
 @media (max-width: 768px) {
     #top-menu-wrapper {
         margin: 0;
         flex-direction: row;
         width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
         background-color: #eaebf1;
-
         padding: 10px 5vw;
         box-sizing: border-box;
     }
@@ -130,7 +148,7 @@ display: absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 #side-panel-wrapper p {
@@ -156,7 +174,8 @@ display: absolute;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#starter-dep, #starter-name {
+#starter-dep,
+#starter-name {
     font-weight: 600;
     font-size: 1.1rem;
     color: #333;
@@ -209,7 +228,8 @@ display: absolute;
     margin: 0.5em;
 }
 
-#signatureForm label select,  #signatureForm label input {
+#signatureForm label select,
+#signatureForm label input {
     margin-left: 1em;
 }
 
@@ -234,19 +254,20 @@ display: absolute;
     margin-left: 1em;
     margin-top: 1em;
 }
+
 /*
 #sign-button:hover, 
 #sign-button:focus {
-    background-color: #45a049;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    outline: none;
-    color: #ffffec;
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+    color: #ffffec;
 }
 
 #sign-button:active {
-    transform: translateY(0);
-    box-shadow: none;
-    color: #ffffff;
+    transform: translateY(0);
+    box-shadow: none;
+    color: #ffffff;
 }
 */
