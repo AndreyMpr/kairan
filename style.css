@@ -16,10 +16,6 @@ body {
     flex-direction: row;
 }
 
-body {
-    padding: 0 5vw;
-}
-
 @media (max-width: 768px) {
     body {
         padding: 0 3vw;
