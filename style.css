@@ -125,6 +125,12 @@ body {
     flex-direction: column;
 }
 
+@media (max-width: 768px) {
+    #document-wrapper {
+        width: 100%;
+    }
+}
+
 #document-wrapper div h1 {
     text-align: center;
     margin: 0.1em;
@@ -150,6 +156,12 @@ body {
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    #side-panel-wrapper {
+        width: 100%;
+    }
 }
 
 #side-panel-wrapper p {
