@@ -63,7 +63,6 @@ body {
         order: 3;
         flex: 1 1 44vh;
         height: 44vh;
-        min-height: 300px;
     }
 
     .input {
