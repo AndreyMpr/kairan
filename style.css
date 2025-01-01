@@ -269,6 +269,12 @@ body {
     margin-top: 1em;
 }
 
+@media (max-width: 768px) {
+    #sign-button {
+        
+        width: 6em;
+    }
+}
 
 #sign-button:hover, 
 #sign-button:focus {
