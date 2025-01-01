@@ -63,7 +63,6 @@ body {
         order: 3;
         flex: 1 1 44vh;
         height: 44vh;
-        margin-left: 0px;
     }
 
     .input {
@@ -160,6 +159,7 @@ body {
 
 @media (max-width: 768px) {
     #side-panel-wrapper {
+        margin-left: 0px;
         width: 100%;
     }
 }
@@ -271,15 +271,15 @@ body {
 
 #sign-button:hover, 
 #sign-button:focus {
-    background-color: #45a049;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    outline: none;
-    color: #ffffec;
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+    color: #ffffec;
 }
 
 #sign-button:active {
-    transform: translateY(0);
-    box-shadow: none;
-    color: #ffffff;
+    transform: translateY(0);
+    box-shadow: none;
+    color: #ffffff;
 }
