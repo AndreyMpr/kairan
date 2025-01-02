@@ -90,13 +90,9 @@ body {
     padding-bottom: 1em;
     text-wrap: nowrap;
     text-align: center;
+    display: grid;
 }
 
-@media (max-width: 768px) {
-    .menu-el {
-        display: grid;
-    }
-}
 
 .menu-el img {
     filter: invert(50%) sepia(17%) saturate(363%) hue-rotate(83deg) brightness(99%) contrast(88%);
