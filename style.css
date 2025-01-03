@@ -264,6 +264,10 @@ body {
     box-sizing: border-box;
 }
 
+#department {
+    min-width: 13.6em;
+}
+
 #sign-button {
     background-color: #bacabe;
     border: none;
