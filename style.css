@@ -296,12 +296,8 @@ body {
 }
 
 #sign-button:active {
+    background-color: #719179;
     transform: translateY(0);
     box-shadow: none;
     color: #ffffff;
-}
-
-a {
-    margin: 0;
-    padding: 0;
 }
