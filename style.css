@@ -105,13 +105,16 @@ body {
     margin: 0 auto;
 }
 
-.menu-el img:hover, 
-.menu-el img:focus {
+.menu-el img:hover,
+.menu-el p:hover, 
+.menu-el img:focus,
+.menu-el p:focus {
     filter: invert(40%) sepia(17%) saturate(363%) hue-rotate(83deg) brightness(99%) contrast(88%);
     filter: drop-shadow(0 0 0.75rem #719179);
 }
 
-.menu-el img:active {
+.menu-el img:active,
+.menu-el p:active {
     filter: drop-shadow(0 0 0.75rem #fffb95);
 }
 
