@@ -300,3 +300,8 @@ body {
     box-shadow: none;
     color: #ffffff;
 }
+
+a {
+    margin: 0;
+    padding: 0;
+}
