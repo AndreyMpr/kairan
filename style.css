@@ -105,6 +105,14 @@ body {
     margin: 0 auto;
 }
 
+.menu-el img:hover, 
+.menu-el img:focus {
+}
+
+.menu-el img:active {
+}
+
+
 @media (max-width: 768px) {
     #top-menu-wrapper {
         margin: 0;
