@@ -108,7 +108,7 @@ body {
 .menu-el img:hover, 
 .menu-el img:focus {
     filter: invert(40%) sepia(17%) saturate(363%) hue-rotate(83deg) brightness(99%) contrast(88%);
-    box-shadow: #719179;
+    filter: drop-shadow(0 0 0.75rem #719179);
 }
 
 .menu-el img:active {
