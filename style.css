@@ -91,45 +91,37 @@ body {
     text-wrap: nowrap;
     text-align: center;
     display: grid;
+    transition: background-color 0.3s ease;
 }
 
-/*
-#menu-el-1:hover
-#menu-el-1:focus 
-#menu-el-2:hover
-#menu-el-2:focus
-#menu-el-3:hover
-#menu-el-3:focus {
-    filter: invert(40%) sepia(17%) saturate(363%) hue-rotate(83deg) brightness(99%) contrast(88%);
-    filter: drop-shadow(0 0 0.75rem #719179);
-}
-*/
-    
 .menu-el p {
     margin: 0;
+    transition: filter 0.3s ease;
 }
-
 
 .menu-el img {
     filter: invert(50%) sepia(17%) saturate(363%) hue-rotate(83deg) brightness(99%) contrast(88%);
     width: 2.5rem;
     display: block;
     margin: 0 auto;
+    transition: filter 0.3s ease;
 }
 
-
-.menu-el img:hover,
-.menu-el p:hover, 
-.menu-el img:focus,
-.menu-el p:focus {
+.menu-el:hover p,
+.menu-el:hover img {
     filter: invert(40%) sepia(17%) saturate(363%) hue-rotate(83deg) brightness(99%) contrast(88%);
     filter: drop-shadow(0 0 0.75rem #719179);
+}
+
+.menu-el:hover {
+    background-color: rgba(179, 204, 187, 0.3);
 }
 
 .menu-el img:active,
 .menu-el p:active {
     filter: drop-shadow(0 0 0.75rem #fffb95);
 }
+
 
 
 @media (max-width: 768px) {
