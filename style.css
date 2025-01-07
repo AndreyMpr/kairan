@@ -91,12 +91,12 @@ body {
     text-wrap: nowrap;
     text-align: center;
     display: grid;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.2s ease;
 }
 
 .menu-el p {
     margin: 0;
-    transition: filter 0.3s ease;
+    transition: filter 0.2s ease;
 }
 
 .menu-el img {
@@ -104,7 +104,7 @@ body {
     width: 2.5rem;
     display: block;
     margin: 0 auto;
-    transition: filter 0.3s ease;
+    transition: filter 0.2s ease;
 }
 
 .menu-el:hover p,
