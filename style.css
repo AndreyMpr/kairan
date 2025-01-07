@@ -109,12 +109,11 @@ body {
 
 .menu-el:hover p,
 .menu-el:hover img {
-    filter: invert(40%) sepia(17%) saturate(363%) hue-rotate(83deg) brightness(99%) contrast(88%);
-    filter: drop-shadow(0 0 0.75rem #719179);
+    filter: invert(20%) sepia(17%) saturate(363%) hue-rotate(83deg) brightness(99%) contrast(88%);
 }
 
 .menu-el:hover {
-    background-color: rgba(179, 204, 187, 0.3);
+    filter: drop-shadow(0 0 0.75rem #719179);
 }
 
 .menu-el img:active,
