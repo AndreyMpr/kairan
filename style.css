@@ -93,7 +93,12 @@ body {
     display: grid;
 }
 
-#menu-el-1:hover {
+#menu-el-1:hover
+#menu-el-1:focus 
+#menu-el-2:hover
+#menu-el-2:focus
+#menu-el-3:hover
+#menu-el-3:focus {
     filter: invert(40%) sepia(17%) saturate(363%) hue-rotate(83deg) brightness(99%) contrast(88%);
     filter: drop-shadow(0 0 0.75rem #719179);
 }
