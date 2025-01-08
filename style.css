@@ -132,6 +132,10 @@ body {
         gap: 1em;
     }
 
+    .menu-el {
+        padding-bottom: 0.8em;
+    }
+
     .menu-el img {
         width: 2em;
     }
