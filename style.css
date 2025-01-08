@@ -176,7 +176,7 @@ body {
     margin-left: 2%;
     height: calc(100vh - 2em);
     padding: 1em;
-    border-radius: 0.5em;
+    border-radius: 0.8em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -188,7 +188,7 @@ body {
         margin-left: 0px;
         width: 100%;
         padding: 0 1em 1em 1em;
-        border-radius: 0 0 0.5em 0.5em;
+        border-radius: 0 0 0.8em 0.8em;
     }
 }
 
