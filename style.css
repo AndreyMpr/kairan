@@ -152,6 +152,7 @@ body {
 @media (max-width: 768px) {
     #document-wrapper {
         width: 100%;
+        border-radius: 0.8em 0.8em 0 0;
     }
 }
 
