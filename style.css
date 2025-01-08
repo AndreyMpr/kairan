@@ -50,7 +50,7 @@ body {
     #top-menu-wrapper {
         order: 1;
         position: static;
-        flex: 0 0 12vh;
+        flex: 0;
     }
 
     #document-wrapper {
