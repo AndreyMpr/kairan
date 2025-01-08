@@ -186,6 +186,8 @@ body {
     #side-panel-wrapper {
         margin-left: 0px;
         width: 100%;
+        padding: 0 1em 1em 1em;
+        border-radius: 0 0 0.5em 0.5em;
     }
 }
 
