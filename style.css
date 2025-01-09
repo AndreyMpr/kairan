@@ -144,7 +144,7 @@ body {
 /*////////////Left panel////////////*/
 
 #document-wrapper {
-    width: 49%;
+    /*width: 49%;*/
     background-color: #bacabe;
     height: calc(100vh - 2em);
     min-width: 30vw;
@@ -176,7 +176,7 @@ body {
 
 #side-panel-wrapper {
     background-color: #bacabe;
-    width: 49%;
+    /*width: 49%;*/
     margin-left: 2%;
     height: calc(100vh - 2em);
     padding: 1em;
