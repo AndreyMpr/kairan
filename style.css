@@ -173,6 +173,10 @@ body {
     border-radius: 0.5em;
 }
 
+.pdf {
+    border-radius: 0.5em;
+}
+
 /*////////////Right panel////////////*/
 
 #side-panel-wrapper {
