@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const nameInput = document.getElementById('name');
   const deptSelect = document.getElementById('department');
 
+  // Input validation
+
   function validateName() {
     if (nameInput.value.trim() === '') {
       return false; //Name is invalid
@@ -15,9 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function validateDepartment() {
     if (deptSelect.value === '') {
-      return false;
+      return false; //Name is invalid
     } else {
-      return true;
+      return true; //Name is valid
     }
   }
 
