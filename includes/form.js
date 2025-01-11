@@ -1,8 +1,19 @@
-// Wait for the DOM to be fully loaded
+// Wait for the dom to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
-  // Get the form element
+  // Get the form and it's child elemets
   const form = document.getElementById('signatureForm');
+  const name = document.getElementById('id');
+  const dept = document.getElementById('department');
   
+
+  name.addEventListener('input') {
+
+  }
+
+  name.addEventListener('blur') {
+    
+  }
+
   // Add submit event listener to the form
   form.addEventListener('submit', function(dontSubmit) {
       // Prevent the default form submission
