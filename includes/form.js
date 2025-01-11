@@ -13,6 +13,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
+  function validateDepartment() {
+    if (deptSelect.value === '') {
+      return false;
+    } else {
+      return true;
+    }
+  }
+
   nameInput.addEventListener('input', function() {
     //%validation logic%
   });
