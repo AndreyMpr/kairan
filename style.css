@@ -146,7 +146,7 @@ body {
 #document-wrapper {
     /*width: 49%;*/
     background-color: #bacabe;
-    height: calc(100vh - 2em);
+    height: calc(100vh - 1em);
     min-width: 30vw;
     border-radius: 0.8em;
     display: flex;
@@ -183,7 +183,7 @@ body {
     background-color: #bacabe;
     /*width: 49%;*/
     margin-left: 2%;
-    height: calc(100vh - 2em);
+    height: calc(100vh - 1em);
     padding: 1em;
     border-radius: 0.8em;
     display: flex;
