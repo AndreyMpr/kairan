@@ -9,16 +9,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function validateName() {
     if (nameInput.value.trim() === '') {
+      nameInput.classList.add('invalid');
+      nameInput.classList.remove('valid');
       return false; //Name is invalid
     } else {
+      nameInput.classList.remove('invalid');
+      nameInput.classList.add('valid');
       return true; //Name is valid
     }
   }
 
   function validateDepartment() {
     if (deptSelect.value === '') {
+      deptSelect.classList.add('invalid');
+      deptSelect.classList.remove('valid');
       return false; //Name is invalid
     } else {
+      deptSelect.classList.remove('invalid');
+      deptSelect.classList.add('valid');
       return true; //Name is valid
     }
   }
