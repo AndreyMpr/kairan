@@ -22,19 +22,19 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   nameInput.addEventListener('input', function() {
-    //%validation logic%
+    validateName()
   });
 
   nameInput.addEventListener('blur', function() {
-    //%validation logic%
+    validateName()
   });
 
   deptSelect.addEventListener('input', function() {
-    //%validation logic%
+    validateDepartment()
   });
 
   deptSelect.addEventListener('blur', function() {
-    //%validation logic%
+    validateDepartment()
   });
 
 
