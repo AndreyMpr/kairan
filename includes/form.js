@@ -2,17 +2,24 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Get the form and it's child elemets
   const form = document.getElementById('signatureForm');
-  const name = document.getElementById('id');
-  const dept = document.getElementById('department');
-  
+  const nameInput = document.getElementById('name');
+  const deptSelect = document.getElementById('department');
 
-  name.addEventListener('input') {
+  nameInput.addEventListener('input', function() {
+    //%validation logic%
+  });
 
-  }
+  nameInput.addEventListener('blur', function() {
+    //%validation logic%
+  });
 
-  name.addEventListener('blur') {
-    
-  }
+  deptSelect.addEventListener('input', function() {
+    //%validation logic%
+  });
+
+  deptSelect.addEventListener('blur', function() {
+    //%validation logic%
+  });
 
   // Add submit event listener to the form
   form.addEventListener('submit', function(dontSubmit) {
