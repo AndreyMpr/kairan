@@ -300,11 +300,12 @@ body {
     border: 2px solid #d63f3f;
 }
   
-  /* Style for valid input fields */
+/* Style for valid input fields */
 .valid {
     border: 2px solid #3f7e3f;
 }
 
+/* Style for error in the form */
 .error-message {
     color: #d63f3f;
     font-size: 0.8em;
