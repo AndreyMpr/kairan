@@ -295,6 +295,16 @@ body {
     width: 13.6em;
 }
 
+/* Style for invalid input fields */
+.invalid {
+    border: 2px solid #d63f3f;
+  }
+  
+  /* Style for valid input fields */
+  .valid {
+    border: 2px solid #3f7e3f;
+  }
+
 #sign-button {
     background-color: #bacabe;
     border: none;
