@@ -298,12 +298,18 @@ body {
 /* Style for invalid input fields */
 .invalid {
     border: 2px solid #d63f3f;
-  }
+}
   
   /* Style for valid input fields */
-  .valid {
+.valid {
     border: 2px solid #3f7e3f;
-  }
+}
+
+.error-message {
+    color: #d63f3f;
+    font-size: 0.8em;
+    margin-top: 0.2em;
+}
 
 #sign-button {
     background-color: #bacabe;
