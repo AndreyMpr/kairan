@@ -11,10 +11,12 @@ document.addEventListener('DOMContentLoaded', function() {
     if (nameInput.value.trim() === '') {
       nameInput.classList.add('invalid');
       nameInput.classList.remove('valid');
+      showError(nameInput, 'お名前をご入力ください');
       return false; //Name is invalid
     } else {
       nameInput.classList.remove('invalid');
       nameInput.classList.add('valid');
+      hideError(nameInput);
       return true; //Name is valid
     }
   }
@@ -23,10 +25,12 @@ document.addEventListener('DOMContentLoaded', function() {
     if (deptSelect.value === '') {
       deptSelect.classList.add('invalid');
       deptSelect.classList.remove('valid');
+      showError(deptSelect, '部署を選択してください');
       return false; //Name is invalid
     } else {
       deptSelect.classList.remove('invalid');
       deptSelect.classList.add('valid');
+      hideError(deptSelect);
       return true; //Name is valid
     }
   }
@@ -46,7 +50,6 @@ document.addEventListener('DOMContentLoaded', function() {
   deptSelect.addEventListener('blur', function() {
     validateDepartment()
   });
-
 
 
   // Add submit event listener to the form
