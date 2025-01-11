@@ -5,6 +5,14 @@ document.addEventListener('DOMContentLoaded', function() {
   const nameInput = document.getElementById('name');
   const deptSelect = document.getElementById('department');
 
+  function validateName() {
+    if (nameInput.value.trim() === '') {
+      return false; //Name is invalid
+    } else {
+      return true; //Name is valid
+    }
+  }
+
   nameInput.addEventListener('input', function() {
     //%validation logic%
   });
@@ -20,6 +28,8 @@ document.addEventListener('DOMContentLoaded', function() {
   deptSelect.addEventListener('blur', function() {
     //%validation logic%
   });
+
+
 
   // Add submit event listener to the form
   form.addEventListener('submit', function(dontSubmit) {
