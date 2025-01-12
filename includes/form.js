@@ -1,23 +1,23 @@
-// Wait for the dom to be fully loaded
+// Wait for the DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
-  // Get the form and it's child elemets
+  // Get the form and its child elements
   const form = document.getElementById('signatureForm');
   const nameInput = document.getElementById('name');
   const deptSelect = document.getElementById('department');
 
-  // Input validation
+  //Input Validation
 
   function validateName() {
     if (nameInput.value.trim() === '') {
       nameInput.classList.add('invalid');
       nameInput.classList.remove('valid');
       showError(nameInput, 'お名前をご入力ください');
-      return false; //Name is invalid
+      return false; // Name is invalid
     } else {
       nameInput.classList.remove('invalid');
       nameInput.classList.add('valid');
       hideError(nameInput);
-      return true; //Name is valid
+      return true; // Name is valid
     }
   }
 
@@ -26,14 +26,31 @@ document.addEventListener('DOMContentLoaded', function() {
       deptSelect.classList.add('invalid');
       deptSelect.classList.remove('valid');
       showError(deptSelect, '部署を選択してください');
-      return false; //Name is invalid
+      return false; // Name is invalid
     } else {
       deptSelect.classList.remove('invalid');
       deptSelect.classList.add('valid');
       hideError(deptSelect);
-      return true; //Name is valid
+      return true; // Name is valid
     }
   }
+
+
+  function showError(inputField, message) {
+    // Check for existing error message
+    const errorSpan = inputField.parentNode.querySelector('.error-message');
+    if (errorSpan) {
+        errorSpan.textContent = message;
+    } else {
+        // Create new error message
+        const errorSpan = document.createElement('span');
+        errorSpan.classList.add('error-message');
+        errorSpan.textContent = message;
+        inputField.parentNode.appendChild(errorSpan);
+    }
+  }
+
+
 
   nameInput.addEventListener('input', function() {
     validateName()
