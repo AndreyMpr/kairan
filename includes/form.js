@@ -56,11 +56,22 @@ document.addEventListener('DOMContentLoaded', function() {
   form.addEventListener('submit', function(dontSubmit) {
       // Prevent the default form submission
       dontSubmit.preventDefault();
-      
+
+      const isNAmeValid = validateName();
+      const isDepartmentValid = validateDepartment();
+
+      if (isNAmeValid && isDepartmentValid) {
+        // Get input values
+        const department = deptSelect.value;
+        const name = nameInput.value;
+      }
+
+      /*
       // Get input values
       const department = document.getElementById('department').value;
       const name = document.getElementById('name').value;
-      
+      */
+
       // Get the signatures list
       const signaturesList = document.getElementById('signatures');
       
