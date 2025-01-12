@@ -50,6 +50,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
+  function hideError(inputField) {
+    const errorSpan = inputField.parentNode.querySelector('.error-message');
+    if (errorSpan) {
+      errorSpan.remove();
+    }
+  }
 
 
   nameInput.addEventListener('input', function() {
