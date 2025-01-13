@@ -88,12 +88,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const department = deptSelect.value;
       const name = nameInput.value;
 
-      /*
-      // Get input values
-      const department = document.getElementById('department').value;
-      const name = document.getElementById('name').value;
-      */
-
       // Get the signatures list
       const signaturesList = document.getElementById('signatures');
       
