@@ -77,17 +77,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Add submit event listener to the form
   form.addEventListener('submit', function(dontSubmit) {
-      // Prevent the default form submission
-      dontSubmit.preventDefault();
-
-      const isNAmeValid = validateName();
-      const isDepartmentValid = validateDepartment();
-
-      if (isNAmeValid && isDepartmentValid) {
-        // Get input values
-        const department = deptSelect.value;
-        const name = nameInput.value;
-      }
+    // Prevent the default form submission
+    dontSubmit.preventDefault();
+  
+    const isNameValid = validateName();
+    const isDepartmentValid = validateDepartment();
+  
+    if (isNameValid && isDepartmentValid) {
+      // Get input values
+      const department = deptSelect.value;
+      const name = nameInput.value;
 
       /*
       // Get input values
@@ -107,5 +106,6 @@ document.addEventListener('DOMContentLoaded', function() {
       
       // Clear form
       form.reset();
+    }
   });
 });
