@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-
   function showError(inputField, message) {
     // Check for existing error message
     const errorSpan = inputField.parentNode.querySelector('.error-message');
@@ -57,7 +56,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-
   nameInput.addEventListener('input', function() {
     validateName()
   });
@@ -74,6 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
     validateDepartment()
   });
 
+  //Form input copy to the list
 
   // Add submit event listener to the form
   form.addEventListener('submit', function(dontSubmit) {
