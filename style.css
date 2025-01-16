@@ -291,6 +291,7 @@ body {
 
 #department {
     width: 13.6em;
+    border-radius: 0.45em;
 }
 
 /* Style for invalid input fields */
