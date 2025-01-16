@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (nameInput.value.trim() === '') {
       nameInput.classList.add('invalid');
       nameInput.classList.remove('valid');
-      showError(nameInput, 'お名前をご入力ください');
+      showError(nameInput, '\nお名前をご入力ください');
       return false; // Name is invalid
     } else {
       nameInput.classList.remove('invalid');
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (deptSelect.value === '') {
       deptSelect.classList.add('invalid');
       deptSelect.classList.remove('valid');
-      showError(deptSelect, '部署を選択してください');
+      showError(deptSelect, '\n部署を選択してください');
       return false; // Name is invalid
     } else {
       deptSelect.classList.remove('invalid');
