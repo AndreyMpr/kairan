@@ -1,25 +1,58 @@
-// Wait for the dom to be fully loaded
+// Wait for the DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
-  // Get the form and it's child elemets
+  // Get the form and its child elements
   const form = document.getElementById('signatureForm');
   const nameInput = document.getElementById('name');
   const deptSelect = document.getElementById('department');
 
-  // Input validation
+  //Input Validation
 
   function validateName() {
     if (nameInput.value.trim() === '') {
-      return false; //Name is invalid
+      nameInput.classList.add('invalid');
+      nameInput.classList.remove('valid');
+      showError(nameInput, '\nお名前をご入力ください');
+      return false; // Name is invalid
     } else {
-      return true; //Name is valid
+      nameInput.classList.remove('invalid');
+      nameInput.classList.add('valid');
+      hideError(nameInput);
+      return true; // Name is valid
     }
   }
 
   function validateDepartment() {
     if (deptSelect.value === '') {
-      return false; //Name is invalid
+      deptSelect.classList.add('invalid');
+      deptSelect.classList.remove('valid');
+      showError(deptSelect, '\n部署を選択してください');
+      return false; // Name is invalid
     } else {
-      return true; //Name is valid
+      deptSelect.classList.remove('invalid');
+      deptSelect.classList.add('valid');
+      hideError(deptSelect);
+      return true; // Name is valid
+    }
+  }
+
+  function showError(inputField, message) {
+    // Check for existing error message
+    const errorSpan = inputField.parentNode.querySelector('.error-message');
+    if (errorSpan) {
+        errorSpan.textContent = message;
+    } else {
+        // Create new error message
+        const errorSpan = document.createElement('span');
+        errorSpan.classList.add('error-message');
+        errorSpan.textContent = message;
+        inputField.parentNode.appendChild(errorSpan);
+    }
+  }
+
+  function hideError(inputField) {
+    const errorSpan = inputField.parentNode.querySelector('.error-message');
+    if (errorSpan) {
+      errorSpan.remove();
     }
   }
 
@@ -39,17 +72,21 @@ document.addEventListener('DOMContentLoaded', function() {
     validateDepartment()
   });
 
-
+  //Form input copy to the list
 
   // Add submit event listener to the form
   form.addEventListener('submit', function(dontSubmit) {
-      // Prevent the default form submission
-      dontSubmit.preventDefault();
-      
+    // Prevent the default form submission
+    dontSubmit.preventDefault();
+  
+    const isNameValid = validateName();
+    const isDepartmentValid = validateDepartment();
+  
+    if (isNameValid && isDepartmentValid) {
       // Get input values
-      const department = document.getElementById('department').value;
-      const name = document.getElementById('name').value;
-      
+      const department = deptSelect.value;
+      const name = nameInput.value;
+
       // Get the signatures list
       const signaturesList = document.getElementById('signatures');
       
@@ -62,5 +99,6 @@ document.addEventListener('DOMContentLoaded', function() {
       
       // Clear form
       form.reset();
+    }
   });
 });

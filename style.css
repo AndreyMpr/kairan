@@ -144,7 +144,6 @@ body {
 /*////////////Left panel////////////*/
 
 #document-wrapper {
-    /*width: 49%;*/
     background-color: #bacabe;
     height: calc(100vh - 1em);
     min-width: 30vw;
@@ -181,7 +180,6 @@ body {
 
 #side-panel-wrapper {
     background-color: #bacabe;
-    /*width: 49%;*/
     margin-left: 2%;
     height: calc(100vh - 1em);
     padding: 1em;
@@ -293,17 +291,29 @@ body {
 
 #department {
     width: 13.6em;
+    border-radius: 0.4em;
+}
+
+#name {
+    border-radius: 0.4em;
 }
 
 /* Style for invalid input fields */
 .invalid {
     border: 2px solid #d63f3f;
-  }
+}
   
-  /* Style for valid input fields */
-  .valid {
+/* Style for valid input fields */
+.valid {
     border: 2px solid #3f7e3f;
-  }
+}
+
+/* Style for error in the form */
+.error-message {
+    color: #d63f3f;
+    font-size: 0.8em;
+    margin-top: 0.2em;
+}
 
 #sign-button {
     background-color: #bacabe;
@@ -326,7 +336,7 @@ body {
 #sign-button:hover, 
 #sign-button:focus {
     background-color: #86a68e;
-    transform: translateY(-2px);
+    transform: translateY(-1px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     outline: none;
     color: #ffffec;
