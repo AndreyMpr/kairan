@@ -313,6 +313,7 @@ body {
     color: #d63f3f;
     font-size: 0.8em;
     margin-top: 0.2em;
+    display: none;
 }
 
 #sign-button {
