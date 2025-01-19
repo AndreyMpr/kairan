@@ -290,7 +290,7 @@ body {
 }
 
 #department {
-    width: 13.6em;
+    min-width: 13.6em;
     border-radius: 0.4em;
 }
 
