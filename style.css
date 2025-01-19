@@ -309,7 +309,7 @@ body {
 }
 
 /* Style for error in the form */
-.error-message {
+#error-message {
     color: #d63f3f;
     font-size: 0.8em;
     margin-top: 0.2em;
