@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const form = document.getElementById('signatureForm');
   const nameInput = document.getElementById('name');
   const deptSelect = document.getElementById('department');
+  let errorMessage = document.getElementById('error-message');
 
   //Input Validation
 
