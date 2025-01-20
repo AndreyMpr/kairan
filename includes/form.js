@@ -38,22 +38,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function showError(inputField, message) {
     // Check for existing error message
-    const errorSpan = inputField.parentNode.querySelector('.error-message');
-    if (errorSpan) {
-        errorSpan.textContent = message;
+    const errorDiv = inputField.parentNode.querySelector('.error-message');
+    if (errorDiv) {
+        errorDiv.textContent = message;
     } else {
         // Create new error message
-        const errorSpan = document.createElement('span');
-        errorSpan.classList.add('error-message');
-        errorSpan.textContent = message;
-        inputField.parentNode.appendChild(errorSpan);
+        const errorDiv = document.createElement('div');
+        errorDiv.classList.add('error-message');
+        errorDiv.textContent = message;
+        inputField.parentNode.appendChild(errorDiv);
     }
   }
 
   function hideError(inputField) {
-    const errorSpan = inputField.parentNode.querySelector('.error-message');
-    if (errorSpan) {
-      errorSpan.remove();
+    const errorDiv = inputField.parentNode.querySelector('.error-message');
+    if (errorDiv) {
+      errorDiv.remove();
     }
   }
 
