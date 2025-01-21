@@ -324,6 +324,18 @@ body {
     z-index: 100;
 }
 
+.error-message.show {
+    display: block;
+}
+.invalid {
+    border: 1px solid #d63f3f;
+}
+.valid {
+    border: 1px solid #3f7e3f;
+}
+
+
+
 #sign-button {
     background-color: #bacabe;
     border: none;
