@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const form = document.getElementById('signatureForm');
   const nameInput = document.getElementById('name');
   const deptSelect = document.getElementById('department');
-  let errorMessage = document.getElementById('error-message');
 
   //Input Validation
 
@@ -42,11 +41,16 @@ document.addEventListener('DOMContentLoaded', function() {
     if (errorDiv) {
         errorDiv.textContent = message;
     } else {
+      /*
         // Create new error message
         const errorDiv = document.createElement('div');
         errorDiv.classList.add('error-message');
         errorDiv.textContent = message;
         inputField.parentNode.appendChild(errorDiv);
+        */
+       // Change error-message display status from none
+      document.querySelector(".error-message").style.display = 'block';
+      return false;
     }
   }
 
