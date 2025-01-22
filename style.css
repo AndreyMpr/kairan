@@ -316,7 +316,7 @@ body {
     margin-top: 0.2em;
     position: fixed;
     top: 8%; 
-    left: 50%;
+    left: auto;
     transform: translate(-50%, -50%);
     background-color: #fdd;
     border: 1px solid #faa;
