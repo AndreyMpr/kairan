@@ -41,16 +41,17 @@ document.addEventListener('DOMContentLoaded', function() {
     if (errorDiv) {
         errorDiv.textContent = message;
     } else {
-      /*
-        // Create new error message
+    
+      // Create new error message
+    
         const errorDiv = document.createElement('div');
         errorDiv.classList.add('error-message');
         errorDiv.textContent = message;
         inputField.parentNode.appendChild(errorDiv);
-        */
+    
        // Change error-message display status from none
-      document.querySelector(".error-message").style.display = 'block';
-      return false;
+      /*document.querySelector(".error-message").style.display = 'block';
+      return false;*/
     }
   }
 
