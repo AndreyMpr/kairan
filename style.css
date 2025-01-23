@@ -310,7 +310,6 @@ body {
 
 /* Style for error in the form */
 .error-message {
-    display: none;
     color: #d63f3f;
     font-size: 1em;
     margin-top: 0.2em;
@@ -324,9 +323,9 @@ body {
     z-index: 100;
 }
 
-/*.error-message.show {
+.error-message.show {
     display: block;
-}*/
+}
 .invalid {
     border: 1px solid #d63f3f;
 }
