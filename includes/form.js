@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const nameInput = document.getElementById('name');
   const deptSelect = document.getElementById('department');
 
-  //Input Validation
+  // Input Validation
 
   function validateName() {
     if (nameInput.value.trim() === '') {
@@ -37,22 +37,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function showError(inputField, message) {
     // Check for existing error message
-    const errorDiv = inputField.parentNode.querySelector('.error-message');
-    if (errorDiv) {
-        errorDiv.textContent = message;
-    } else {
-    
-      // Create new error message
-    
-        const errorDiv = document.createElement('div');
-        errorDiv.classList.add('error-message');
-        errorDiv.textContent = message;
-        inputField.parentNode.appendChild(errorDiv);
-    
-       // Change error-message display status from none
-      /*document.querySelector(".error-message").style.display = 'block';
-      return false;*/
+    let errorDiv = inputField.parentNode.querySelector('.error-message');
+    if (!errorDiv) {
+      // Create new error message if it doesn't exist
+      errorDiv = document.createElement('div');
+      errorDiv.classList.add('error-message');
+      inputField.parentNode.appendChild(errorDiv);
     }
+
+    errorDiv.textContent = message;
+
+    // Set timeout to automatically hide the error message after 6 seconds
+    setTimeout(() => {
+      hideError(inputField);
+    }, 6000); // 6000 milliseconds = 6 seconds
   }
 
   function hideError(inputField) {
@@ -62,6 +60,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
+  // ... (rest of your code remains the same)
+  
   nameInput.addEventListener('input', function() {
     validateName()
   });
