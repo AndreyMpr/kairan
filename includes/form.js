@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set timeout to automatically hide the error message after 6 seconds
     setTimeout(() => {
       hideError(inputField);
-    }, 6000); // 6000 milliseconds = 6 seconds
+    }, 3000);
   }
 
   function hideError(inputField) {
