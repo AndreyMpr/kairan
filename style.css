@@ -311,7 +311,6 @@ body {
 /* Style for error in the form */
 .error-message {
     color: #d63f3f;
-    font-size: 1em;
     margin-top: 0.2em;
     position: fixed;
     top: 8%; 
