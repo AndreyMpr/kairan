@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     errorDiv.textContent = message;
 
-    // Set timeout to automatically hide the error message after 6 seconds
+    // Set timeout to automatically hide the error message after 3 seconds
     setTimeout(() => {
       hideError(inputField);
     }, 3000);
@@ -59,8 +59,6 @@ document.addEventListener('DOMContentLoaded', function() {
       errorDiv.remove();
     }
   }
-
-  // ... (rest of your code remains the same)
   
   nameInput.addEventListener('input', function() {
     validateName()
