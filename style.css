@@ -113,7 +113,7 @@ body {
 }
 
 .menu-el:hover {
-    filter: drop-shadow(0 0 0.75rem #719179);
+    filter: drop-shadow(0 0 0.1rem #719179);
 }
 
 .menu-el img:active,
