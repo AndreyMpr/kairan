@@ -118,7 +118,7 @@ body {
 
 .menu-el img:active,
 .menu-el p:active {
-    filter: drop-shadow(0 0 0.75rem #fffb95);
+    filter: invert(90%) drop-shadow(0 0 0.1rem #719179);
 }
 
 @media (max-width: 768px) {
