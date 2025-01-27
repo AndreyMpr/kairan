@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (nameInput.value.trim() === '') {
       nameInput.classList.add('invalid');
       nameInput.classList.remove('valid');
-      showError(nameInput, '\nお名前をご入力ください');
+      showError(nameInput, '\nお名前をご入力してください');
       return false; // Name is invalid
     } else {
       nameInput.classList.remove('invalid');
