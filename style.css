@@ -350,6 +350,7 @@ body {
 @media (max-width: 768px) {
     #sign-button {
         width: 6em;
+        font-size: 1em;
     }
 }
 
