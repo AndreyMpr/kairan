@@ -2,7 +2,7 @@
 $statusMsg = '';
 
   //file upload path
-  $targetDir = "uploads/";
+  $targetDir = "../uploads/";
 
 echo $statusMsg;
 ?>
