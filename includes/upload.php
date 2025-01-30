@@ -1,0 +1,5 @@
+<?php
+$statusMsg = '';
+
+echo $statusMsg;
+?>
