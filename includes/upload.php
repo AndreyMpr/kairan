@@ -16,6 +16,8 @@ $statusMsg = '';
         $statusMsg = "The file ".$fileName. " has been uploaded.";
     　}else{
             $statusMsg = "アプロードする時にエラーが発生しました。";
+    }else{
+        $statusMsg = 'PDFファイル以外アプロードできません。';
     }}
   }
   
