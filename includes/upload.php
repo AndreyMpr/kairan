@@ -18,7 +18,9 @@ $statusMsg = '';
             $statusMsg = "アプロードする時にエラーが発生しました。";
     }else{
         $statusMsg = 'PDFファイル以外アプロードできません。';
-    }}
+  }else{
+    $statusMsg = 'PDFファイルを選択せてください。';
+  }}
   }
   
 
