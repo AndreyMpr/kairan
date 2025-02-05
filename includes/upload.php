@@ -9,20 +9,23 @@ $statusMsg = '';
 
   if(isset($_POST["submit"]) && !empty($_FILES["file"]["name"])) {
     //allow certain file formats
-    $allowTypes = array('pdf');
+    $allowTypes = array('jpg','png','jpeg','gif','pdf');
     if(in_array($fileType, $allowTypes)){
-      //upload file to server
+        //upload file to server
       if(move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePath)){
-        $statusMsg = "The file ".$fileName. " has been uploaded.";
-    　}else{
+            $statusMsg = "The file ".$fileName. " has been uploaded.";
+      }else{
             $statusMsg = "アプロードする時にエラーが発生しました。";
+      }
     }else{
         $statusMsg = 'PDFファイル以外アプロードできません。';
+    }
   }else{
     $statusMsg = 'PDFファイルを選択せてください。';
-  }}
   }
+
   
 
 echo $statusMsg;
 ?>
+
