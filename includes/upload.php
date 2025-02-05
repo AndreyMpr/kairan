@@ -24,8 +24,7 @@ $statusMsg = '';
     $statusMsg = 'PDFファイルを選択せてください。';
   }
 
-  
-
+//display status message
 echo $statusMsg;
 ?>
 
