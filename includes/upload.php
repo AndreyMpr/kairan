@@ -9,7 +9,7 @@ $statusMsg = '';
 
   if(isset($_POST["submit"]) && !empty($_FILES["file"]["name"])) {
     //allow certain file formats
-    $allowTypes = array('jpg','png','jpeg','gif','pdf');
+    $allowTypes = array('pdf');
     if(in_array($fileType, $allowTypes)){
         //upload file to server
       if(move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePath)){
