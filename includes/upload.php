@@ -26,5 +26,3 @@ $statusMsg = '';
 
 //display status message
 echo $statusMsg;
-?>
-
