@@ -10,6 +10,7 @@ $statusMsg = '';
   if(isset($_POST["submit"]) && !empty($_FILES["file"]["name"])) {
     //allow certain file formats
     $allowTypes = array('pdf');
+    $maxFileSize = 31457280;
     if(in_array($fileType, $allowTypes)){
       // Check if file already exists
       if (file_exists($target_file)) {
