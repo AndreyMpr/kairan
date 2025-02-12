@@ -13,7 +13,7 @@ $statusMsg = '';
     if(in_array($fileType, $allowTypes)){
       // Check if file already exists
       if (file_exists($target_file)) {
-        $statusMsg = "すみません、".$fileName. "フファイルは既に存在します。";
+        $statusMsg = "すみません、".$fileName. "フファイルは既に存在します。ファイル名を変更、あるいは違うファイルを選択してください。";
       } 
           //upload file to server
         if(move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePath)){
