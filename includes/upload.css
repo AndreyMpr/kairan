@@ -8,3 +8,8 @@ body {
 body {
     background-color: #bacabe;
 }
+
+#upload-form-wrapper {
+    display: flex;
+    margin: 0 auto;
+}
