@@ -15,3 +15,7 @@ body {
     max-width: 768px;
     height: 90%;
 }
+
+#list-wrapper ul {
+    list-style: none;
+}
