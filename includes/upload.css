@@ -13,4 +13,5 @@ body {
     display: flex;
     margin: 0 auto;
     max-width: 768px;
+    height: 90%;
 }
