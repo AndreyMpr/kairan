@@ -8,7 +8,12 @@ body {
 }
 
 body {
-    background-color: #bacabe;
+    background-color: #eaebf1;
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 #list-wrapper h1 {
