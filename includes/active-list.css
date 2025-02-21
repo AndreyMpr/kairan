@@ -37,6 +37,7 @@ body {
     max-width: 768px;
     height: 90%;
     background-color: #bacabe;
+    border-radius: 0.8em;
 }
 
 #list-wrapper ul {
