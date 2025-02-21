@@ -38,6 +38,7 @@ body {
     height: 90%;
     background-color: #bacabe;
     border-radius: 0.8em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #list-wrapper ul {
