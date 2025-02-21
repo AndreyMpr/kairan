@@ -41,6 +41,11 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 768px) {
+    #list-wrapper {
+        width: 95%;
+}
+
 #list-wrapper ul {
     list-style: none;
     padding: 0;
