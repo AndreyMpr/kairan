@@ -24,13 +24,6 @@ body {
     }
 }
 
-#list-wrapper h1 {
-    text-align: center;
-    margin: 0.1em;
-    font-size: 1.5em;
-    color: #333;
-}
-
 #list-wrapper {
     display: flex;
     margin: 0 auto;
@@ -45,6 +38,13 @@ body {
 @media (max-width: 768px) {
     #list-wrapper {
         width: 95%;
+}
+
+#list-wrapper h1 {
+    text-align: center;
+    margin: 0.1em;
+    font-size: 1.5em;
+    color: #333;
 }
 
 #list-wrapper ul {
