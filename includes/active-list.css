@@ -24,6 +24,8 @@ body {
     }
 }
 
+/*////////////Inner styles////////////*/
+
 #list-wrapper {
     display: flex;
     margin: 0 auto;
