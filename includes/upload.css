@@ -25,3 +25,7 @@ body {
     border-radius: 0.8em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+#upload-form-wrapper form {
+    width: 100%;
+}
