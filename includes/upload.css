@@ -33,3 +33,9 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+@media (max-width: 768px){
+    #upload-form-wrapper form {
+    padding: 1em;
+    }
+}
