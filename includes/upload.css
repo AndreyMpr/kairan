@@ -39,3 +39,16 @@ body {
     padding: 1em;
     }
 }
+
+#upload-form-wrapper input[type="submit"] {
+    background-color: #bacabe;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 0.5em;
+    width: auto;
+    color: black;
+}
