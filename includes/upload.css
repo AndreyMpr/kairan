@@ -68,3 +68,28 @@ body {
     box-shadow: none;
      color: #ffffff;
 }
+
+input[type="file"]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #bacabe;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: black;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #86a68e;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+     color: #ffffec;
+}
+input[type="file"]::file-selector-button:active{
+    background-color: #719179;
+    transform: translateY(0);
+    box-shadow: none;
+     color: #ffffff;
+}
