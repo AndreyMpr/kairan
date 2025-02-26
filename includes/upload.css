@@ -50,5 +50,14 @@ body {
     transition: all 0.3s ease;
     margin-top: 0.5em;
     width: auto;
-    color: black;
+    color: #000;
+}
+
+#upload-form-wrapper input[type="submit"]:hover,
+#upload-form-wrapper input[type="submit"]:focus {
+    background-color: #86a68e;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+    color: #ffffec;
 }
