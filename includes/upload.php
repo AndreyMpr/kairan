@@ -7,6 +7,10 @@ $statusMsg = '';
   $targetFilePath = $targetDir . $fileName;
   $fileType = pathinfo($targetFilePath, PATHINFO_EXTENSION);
 
+  if(empty($_FILES["file"]["name"])) {
+    $statusMsg = "Please select file to upload";
+}
+
   if(isset($_POST["submit"]) && !empty($_FILES["file"]["name"])) {
     //allow certain file formats
     $allowTypes = array('pdf');
