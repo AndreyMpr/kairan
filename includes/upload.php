@@ -1,11 +1,11 @@
 <?php
 $statusMsg = '';
 
-if(isset($_POST["submit"])) {
+if(isset($_POST["submit"])) { // Check if the form was submitted
 
   if(empty($_FILES["file"]["name"])) {
     $statusMsg = "Please select file to upload";
-  } else {
+  } else { // Proceed with upload only if a file was selected
     $targetDir = "../uploads/";
     $fileName = basename($_FILES["file"]["name"]);
     $targetFilePath = $targetDir . $fileName;
@@ -17,7 +17,7 @@ if(isset($_POST["submit"])) {
 
     if(in_array($fileType, $allowTypes)){
       // Check if file already exists
-      if (file_exists($targetFilePath)) {
+      if (file_exists($targetFilePath)) { // corrected from $target_file
         $statusMsg = "すみません、".$fileName. "フファイルは既に存在します。ファイル名を変更、あるいは違うファイルを選択してください。";
       } else {
           //upload file to server
@@ -31,8 +31,8 @@ if(isset($_POST["submit"])) {
         $statusMsg = 'PDFファイル以外アプロードできません。';
     }
   }
-} else {
-    $statusMsg = "";
+} else { // if submit button was not pressed.
+    $statusMsg = ""; // prevents "Please select file to upload" on initial page load
 }
 
 //display status message
