@@ -38,8 +38,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    #list-wrapper {
-        width: 95%;
+    #list-wrapper {width: 95%;}
 }
 
 #list-wrapper h1 {
