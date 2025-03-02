@@ -4,7 +4,7 @@ $statusMsg = '';
 if(isset($_POST["submit"])) { // Check if the form was submitted
 
   if(empty($_FILES["file"]["name"])) {
-    $statusMsg = "Please select file to upload";
+    $statusMsg = "PDF ファイルを選択してください。";
   } else { // Proceed with upload only if a file was selected
     $targetDir = "../uploads/";
     $fileName = basename($_FILES["file"]["name"]);
