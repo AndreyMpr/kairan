@@ -92,6 +92,8 @@ body {
     text-align: center;
     display: grid;
     transition: background-color 0.2s ease;
+    text-decoration: none;
+    color: #333;
 }
 
 .menu-el p {
