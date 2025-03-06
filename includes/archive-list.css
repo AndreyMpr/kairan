@@ -11,7 +11,6 @@ body {
     background-color: #eaebf1;
     width: 100%;
     font-family: sans-serif;
-    display: flex;
     justify-content: center;
     align-items: flex-start;
     padding-top: 2em;
