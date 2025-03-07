@@ -40,6 +40,10 @@ body {
     }
 }
 
+#upload-form-wrapper h2 {
+    margin-bottom: 2rem;
+}
+
 #upload-form-wrapper input[type="submit"] {
     background-color: #bacabe;
     border: none;
@@ -48,7 +52,7 @@ body {
     padding: 0.5em 1em;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-top: 0.5em;
+    margin-top: 2rem;
     width: auto;
     color: #000;
 }
