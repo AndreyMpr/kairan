@@ -26,7 +26,6 @@ body {
 /*////////////Inner styles////////////*/
 
 #list-wrapper {
-    display: flex;
     margin: 0 auto;
     padding: 1em;
     max-width: 768px;
