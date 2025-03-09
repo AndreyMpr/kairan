@@ -2,7 +2,7 @@
 $statusMsg = ''; 
 
 // File upload directory 
-$targetDir = "uploads/"; 
+$targetDir = "test_uploads/"; 
  
 if(isset($_POST["submit"])){ 
     if(!empty($_FILES["file"]["name"])){ 
