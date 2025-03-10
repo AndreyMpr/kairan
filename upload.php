@@ -11,7 +11,7 @@ if(isset($_POST["submit"])){
         $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION); 
      
         // Allow certain file formats 
-        $allowTypes = array('jpg','png','jpeg','gif'); 
+        $allowTypes = array('pdf'); 
         if(in_array($fileType, $allowTypes)){ 
             // Upload file to server 
             if(move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePath)){ 
@@ -26,7 +26,7 @@ if(isset($_POST["submit"])){
                 $statusMsg = "Sorry, there was an error uploading your file."; 
             } 
         }else{ 
-            $statusMsg = 'Sorry, only JPG, JPEG, PNG, & GIF files are allowed to upload.'; 
+            $statusMsg = 'Sorry, only PDF files are allowed to upload.'; 
         } 
     }else{ 
         $statusMsg = 'Please select a file to upload.'; 
