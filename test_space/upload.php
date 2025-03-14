@@ -1,4 +1,4 @@
-   <?php
+<?php
 
    // db config
    $dbHost     = "localhost";
@@ -8,3 +8,8 @@
 
    // connect to db
    $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
+
+   // check connection
+   if ($db->connect_error) {
+   die("Connection failed: " . $db->connect_error);
+   }
