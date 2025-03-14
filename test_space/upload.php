@@ -17,4 +17,4 @@
    $statusMsg = '';
    $msgClass = '';
 
-   
+   $targetDir = "test_uploads/";
