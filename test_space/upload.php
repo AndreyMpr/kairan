@@ -18,4 +18,5 @@
    $msgClass = '';
 
    $targetDir = "test_uploads/";
-   $fileName = basename($_FILES["pdfFile"] ["name"])
+   $fileName = basename($_FILES["pdfFile"] ["name"]);
+   $targetFilePath = $targetDir.$fileName;
