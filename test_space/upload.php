@@ -19,4 +19,4 @@
 
    $targetDir = "test_uploads/";
    $fileName = basename($_FILES["pdfFile"] ["name"]);
-   $targetFilePath = $targetDir.$fileName;
+   $targetFilePath = $targetDir . $fileName;
