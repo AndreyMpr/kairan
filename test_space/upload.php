@@ -21,6 +21,7 @@
    $fileName = basename($_FILES["pdfFile"] ["name"]);
    $targetFilePath = $targetDir . $fileName;
 
+   // dictionary for linking source file with their columns in the target file
    all_source_files = {
       '515.xlsx': 3,   # Column D
       '5151.xlsx': 4,  # Column E
@@ -34,4 +35,5 @@
       '544.xlsx': 12   # Column M
    }
 
+   // dictionary for storing source values
    source_dicts = {}
