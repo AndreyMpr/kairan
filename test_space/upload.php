@@ -17,6 +17,7 @@
    $statusMsg = '';
    $msgClass = '';
 
+   // file upload path
    $targetDir = "test_uploads/";
    $fileName = basename($_FILES["pdfFile"] ["name"]);
    $targetFilePath = $targetDir . $fileName;
