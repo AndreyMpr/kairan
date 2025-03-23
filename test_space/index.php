@@ -7,7 +7,9 @@
     <body>
         <h1>Upload a PDF Document</h1>
         <?php if(!empty($statusMsg)){ ?>
-            <p class="statusMsg <?php echo !empty($msgClass)?$msgClass:''; ?>"><?php echo $statusMsg; ?></p>
+            <p class="statusMsg <?php echo !empty($msgClass)?$msgClass:''; ?>">
+                                     <?php echo $statusMsg; ?>
+            </p>
         <?php } ?>
         <form action="upload.php" method="post" enctype="multipart/form-data">
             <label for="pdfFile">Select PDF to upload:</label>
