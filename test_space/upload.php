@@ -11,7 +11,7 @@
 
    // check connection
    if ($db->connect_error) {
-   die("Connection failed: " . $db->connect_error);
+   die("Connection failed on connection checking step: " . $db->connect_error);
    }
 
    $statusMsg = '';
@@ -22,3 +22,5 @@
    $fileName = basename($_FILES["pdfFile"] ["name"]);
    $targetFilePath = $targetDir . $fileName;
    $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
+
+   
