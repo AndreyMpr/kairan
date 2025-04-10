@@ -13,7 +13,7 @@
         <?php } ?>
         <form action="upload.php" method="post" enctype="multipart/form-data">
             <label for="pdfFile">Select PDF to upload:</label>
-            <input type="file" name="pdfFile" id="pdfFile" accept="application/pdf">
+            <input type="file" value="Select file" name="pdfFile" id="pdfFile" accept="application/pdf">
             <input type="submit" value="Upload" name="submit">
         </form>
     </body>
